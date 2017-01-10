@@ -1,0 +1,14 @@
+<div class="container" >
+    <div class="board">
+            <h2 >Score: {{vm.score}}</h2>
+            <p>{{ vm.clock.format('HH:mm:ss')}}</p>
+        <div ng-repeat="row in vm.board" class="tetris-row">
+            <div ng-repeat="cell in row" class="cell" ng-class="{ 'filled-{{cell.color}}': true }">
+            </div>
+        </div>
+    </div>
+
+    <div class="context" ng-show="vm.context">
+        <h1>{{vm.context}} </h1>
+    </div>
+</div>

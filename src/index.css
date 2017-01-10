@@ -1,0 +1,63 @@
+.board {
+    position: absolute;
+    min-width:99%;
+}
+
+.board * {
+    align: center;
+    text-align: center;
+}
+
+.filled-black{
+    background: black;
+}
+
+.filled-red{
+    background: red;
+}
+
+.filled-blue{
+    background: blue;
+}
+
+.tetris-row{
+    margin:-5px;
+    vertical-align:bottom;
+}
+
+.cell{
+    width:20px;
+    height:20px;
+    border: 1px solid black;
+    margin: 1px;
+    display:inline-block;
+}
+
+.context {
+    position: absolute;
+    background-color: rgba(0, 120, 201, 0.7);
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 200px;
+    text-align:center;
+    #opacity: 0.7;
+    max-width: 50%;
+}
+
+.block {
+    position: absolute;
+    font-size: 50px;
+    /*background-color: rgba(0, 120, 201, 0.7);*/
+}
+
+.zone {
+    position: absolute;
+    top: 300px;
+    min-width:99%;
+}
+
+.tamagochi *{
+    float: left;
+}
