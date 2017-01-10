@@ -16,18 +16,6 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
       controller: 'tetrisController',
       controllerAs: 'vm',
       templateUrl: 'app/tetris/tetris.html'
-    })
-    .state('beat', {
-      url: '/2',
-      controller: 'beatController',
-      controllerAs: 'vm',
-      templateUrl: 'app/beat_game/beat_game.html'
-    })
-    .state('tamagochi', {
-      url: '/3',
-      controller: 'tamagochiController',
-      controllerAs: 'vm',
-      templateUrl: 'app/tamagochi/tamagochi.html'
     });
 
 }
